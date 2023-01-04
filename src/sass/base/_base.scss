@@ -6,6 +6,11 @@ html {
 }
 
 body {
-  background-color: #ede9e3;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto';
+  color:#212121;
+  background-color: #FFFFFF;
+  font-size: 16px;
+   @media screen and (min-width: 767.5px){
+    padding-top: 80px;
+  }
 }

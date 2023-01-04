@@ -1,0 +1,49 @@
+.hero{
+    
+    background-color: #2F303A;
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    @media screen and (max-width:480px) {
+        padding: 78px 0;
+    }
+@media screen and (min-width:480px) {
+    padding: 118px 0 ;
+}
+@media screen and (max-width:767.5px) {
+    
+      background-image: linear-gradient(#2F303A66,#2F303A66),url(../img/mob/img.png);
+   
+}
+@media screen and (min-width:768px) {
+    
+    background-image: linear-gradient(#2F303A66,#2F303A66),url(../img/tablet/img.png);
+    
+}
+@media screen and (min-width:1200px) {
+    padding: 200px 0 ;
+    background-image: linear-gradient(#2F303A66,#2F303A66),url(../img/Img.png);
+   
+}
+    
+
+} 
+.big__text{
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 1.36;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    display: block;
+    margin: auto;margin-bottom: 30px;
+    max-width: 1199px;
+@media screen and (min-width:480px) {
+    width: 360px;
+}
+@media screen and (min-width:1200px) {
+    font-size: 44px;
+    width: 696px;
+}
+}

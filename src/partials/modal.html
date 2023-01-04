@@ -1,0 +1,37 @@
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="modal__esc" data-modal-close>
+            <svg width="30" height="30"><use href="./img/x.svg#icon-x"></use></svg>
+        </button>
+    <div class="container__modal">
+        <h2 class="modal__text__head">Залиште свої дані, ми вам передзвонимо</h2>
+        <form class="call__back">
+            <div>
+            <label for="name"><p>ім'я</p></label>
+            <input type="text" name="name" id="name"/>
+            <svg class="ico" width="18" height="18"><use href="./img/icondz6.svg#icon-men"></use></svg></div>
+            <div>
+            <label for="tel"><p>Телефон</p></label>
+            <input type="tel" name="tel" id="tel"/>
+            <svg class="ico" width="18" height="18"><use href="./img/icondz6.svg#icon-tel"></use></svg></div>
+            <div>
+            <label for="mail"><p>Пошта</p></label>
+            <input type="text" name="mail" id="mail"/>
+            <svg class="ico" width="18" height="18"><use href="./img/icondz6.svg#icon-mail"></use></svg></div>
+            
+            <label for="coment"><p>Коментар</p></label>
+            <textarea  type="text" name="coment" id="coment" placeholder="Введіть текст" class="coment"></textarea>
+            
+        </form>
+        <form class="agree flex--center">
+            <label for="agree">
+                <input class="checkbox" type="checkbox" name="agree" id="agree"/>    
+                <span class="ico__ok"></span>
+                Погоджуюся з розсилкою та приймаю  <a class="agree__a" href="#">Умови договору</a></label>
+            
+        </form>
+            
+            <button class="my__button block--center" type="submit">Відправити</button>
+    </div>
+</div>
+</div>

@@ -1,0 +1,24 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0 20px;
+
+  
+  @media screen and (max-width: 767.5px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 767.5px) and (max-width:1199.5) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1199.5px) {
+    width: 1200px;
+  }
+}
+.section{
+    
+  @media screen and (max-width:1199.5px) {
+  padding: 60px 0;
+  }
+  padding: 94px 0;
+}
